@@ -17,13 +17,13 @@ body{
 	margin-top: 150px;
 	line-height: 25%;
 }
-.picture{
-	margin-top: 70px;
-	width: 192px;
-	height: 192px;
-	position:absolute;
-	right: 250px;
+
+.profile-pic{
+	border-radius: 50%;
 	top: 5px;
+	display: block;
+    margin: auto;
+    float: center;
 }
 .title{
 	font-size: 20px;
@@ -33,6 +33,8 @@ body{
 	width: 800px;
 	margin: 0 auto;
 	padding: 30px;
+	padding-bottom: 10%;
+	margin-bottom: 10%;
 }
 .main-info{
 	margin-top: 30px;
@@ -42,14 +44,15 @@ ul{
     -webkit-columns: 3;
     -moz-columns: 3;
 	list-style: none;
-
 }
 ul{
 	columns: 3;
     -webkit-columns: 3;
     -moz-columns: 3;
 	list-style: none;
-
+}
+.information{
+	float: right;
 }
 </style>
 <head>
@@ -57,13 +60,13 @@ ul{
 		<div class="basic-info">
 			<h1 class="Name">Bonghanoy, Mark John N.</h1>		
 		<div class="sub-info">
-			<p>Contact#: +639103947339</p>
-			<p>Address: #26 Don Carlos St. Don Antonio Heights Quezon City</p>
-			<p>Email:  bonghanoymark@yahoo.com</p>
+			<p class="information">Contact#: +639103947339</p>
+			<p class="information">Address: #26 Don Carlos St. Don Antonio Heights Quezon City</p>
+			<p class="information">Email:  bonghanoymark@yahoo.com</p>
 		</div>
 		</div>
 		<div class="picture">
-		<img src="pic.jpeg" width=192px height=192px>
+		<img  class="profile-pic" src="pic.jpeg" width=192px height=192px>
 		</div>
 		<div class="main-info">
 			<div class="title">
